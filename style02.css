@@ -1,0 +1,417 @@
+body{
+    margin: 15px 40px;
+}
+
+.first{
+    display: flex;
+    justify-content: space-between;
+} 
+
+.first p{
+  font-weight: 700;
+   color: rgb(14,14,14);
+   font-size: 15px;
+
+}
+.first div{
+    border-width: 90px;
+    color: blue;
+    border: 3px solid rgba(14, 14, 14, 0.20);
+    padding: 9px 15px 9px 15px;
+    border-radius: 8px;
+}
+.container-1{
+    margin-top: 10px;
+    border-radius: 15px;
+    padding: 20px;
+    justify-content: space-between;
+    background-color: rgb(198, 228, 214);
+    display: flex;
+    
+}
+.text{
+     display: flex;
+     flex-direction: column;
+}
+.text p{
+    color: rgb(14,14,14,0.5);
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+.text h1{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 5px;
+    max-width: 70%;
+}
+.text button{
+    height: 25px;  
+    background-color: rgb(0, 106, 80);
+    color: white;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    border: none;
+}
+.ufo-0 h3{
+    font-size: 25px;
+    font-weight: 600;
+     margin-top: 30px;
+     margin-bottom: 10px;
+}
+.second{
+    display: flex;
+    gap: 12px;
+    height: 150px;
+}
+#one, #two, #three, #four{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 15px;
+    background-color: beige;
+    border-radius: 12px;
+}
+.second img{
+    height: 24px;
+    width: 24px;
+}
+.second h5{
+    margin-top: 6px;
+    font-size: 15px;
+    margin-bottom: 6px;
+}
+.second p{
+    margin-top: 1px;
+}
+.ufo-1 h3{
+   font-size: 25px;
+   font-weight: 600;
+   margin-top: 30px;
+
+}
+.ufo-1 .space{
+    margin-bottom: 13px;
+}
+.third{
+    display: flex;
+    /* height: 200px; */
+    gap: 15px;
+}    
+#five,#six, #seven{
+    padding: 10px;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    width: 32%;
+}
+.third img{
+    height: 38px;
+    width: 38px;
+}
+/* not heading */
+.third h5{
+    font-size: 18px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+#five p,#seven p{
+    margin: 16px 0px;
+
+}
+.third #six p{
+   
+    margin: 16px 0px 16px 0px;
+}
+.third button{
+    height: 22px;
+    width: 95px;
+    text-align: center;
+    border-radius: 8px;
+     color: rgb(255, 255, 255);
+     border: none;
+    /* margin-bottom: 10px; */
+}
+.fourth{
+    border: 1px solid rgba(14, 14, 14, 0.16);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 12px;
+    margin-top: 13px;
+}
+.fourth p{
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.8);
+    gap: 5px; 
+    margin-bottom: 2px;
+}
+ /* this is not the heading */
+.fourth h3{
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 1px;
+}
+/* heading */
+.ufo-2 h3{
+    font-weight: 600;
+    font-size: 25px;
+}
+.fifth{
+    border: 1px solid rgba(14, 14, 14, 0.16);
+    margin-top: 20px;
+    height: 250px;
+    border-radius: 16px;
+    padding: 40px ;
+}
+.fifth table{
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+}
+.fifth .none{
+    background-color:rgb(198, 228, 214);
+    gap: 20px;
+}
+.fifth th{
+    background-color:rgb(198, 228, 214) ;
+}
+.fifth table, td{
+    border-collapse: collapse;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 20px;
+}
+.fifth td {
+    /* justify-content: center;
+    align-items: center; */
+    text-align: center;
+}
+.fifth td select{
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(198, 228, 214);
+}
+.ufo-3 h4{
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+.ufo-3 p{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.ufo-3, .sixth p{
+    font-weight: 400;
+}
+.sixth h2{
+    font-size: 22px;
+    font-weight: 650;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.sixth .img-cont{
+    width: 30%;
+    height: 200px;
+    
+}
+#eight .img-cont, #ten .img-cont{
+    padding: 40px 10px 40px 40px;
+}
+.sixth #nine .img-cont{
+   padding: 40px 40px 40px 10px;
+}
+.sixth .img-cont img{
+    min-height: 100%;
+    max-width: 100%;
+    border-radius: 24px;
+}
+.sixth .text-cont button{
+    width: 100px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    border: none;
+}
+.ufo-3{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sixth{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+#eight, #nine, #ten{
+   height: 300px;
+   border: 1px solid rgba(14, 14, 14, 0.16);
+   border-radius: 24px;
+   display: flex;
+   /* justify-content: space-between; */
+   /* align-items: center; */
+}
+#eight .text-cont,#ten .text-cont{
+   display: flex;
+   flex-direction: column;
+   gap: 2px;
+   max-width: 70%;
+   padding: 40px 40px 40px 0px;
+}
+.sixth #nine .text-cont{
+    display: flex;
+   flex-direction: column;
+   gap: 2px;
+   max-width: 70%;
+   padding: 40px 0px 40px 40px;
+}
+
+.ufo-4{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 20px;
+   
+}
+.ufo-4 h3{
+    font-size: 30px;
+    font-weight: 750;
+    margin-top:10px;
+    margin-bottom: 5px;
+}
+.ufo-4 p{
+    color: rgba(14,14,14, 0.7);
+    font-size: 15px;
+    font-weight: 400;
+    /* max-width: 74%; */
+    /* margin-left: 70px;
+    margin-right: 70px; */
+    /* justify-content:space-between; */
+    text-align: center;
+}
+/* this one? */
+.seventh{
+    display: flex;
+    gap: 20px;
+    /* width: 250px;
+    height: 150px; */
+    justify-content:space-between;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+/* or this ? */
+#eleven, #twelve, #thirteen, #fourteen{
+    max-width: 25%;
+    height: 15px; 
+    /* justify-content: center;
+    align-items: center; */
+    color: rgba(14, 14, 14, 0.8);
+    padding:40px;;
+    font-size: 25px;
+    font-weight: 700;
+    border-radius: 16px;
+    border:1px solid rgba(14,14, 14, 0.15);
+}
+#twelve{
+    background-color: rgb(198,228,214);
+}
+.eighth{
+    border: 1px solid rgba(14,14, 14, 0.15);
+   width: 500px;
+    height:27px;
+    color: rgba(14, 14, 14, 0.3);
+    border-radius: 8px;
+    text-align: center;
+    /* justify-content: center;
+    align-items: center; */
+    font-size: 15px;
+    font-weight: 400;
+   padding: 5px 60px;
+}
+.ufo-4 button{
+     height: 40px;
+     width: 100px;
+     border-radius: 5px;
+    background-color: rgb(0, 106, 80);
+    text-align: center;
+    margin-bottom: 10px;
+     color: rgb(255, 255, 255);
+}
+.nineth{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 30px 30px; 
+    text-align: center; 
+    border: 1px solid rgba(14,14, 14, 0.15);
+    background-color: rgb(198, 228, 214);
+    border-radius: 24px;
+}
+.nineth h2{
+    font-size: 30px;
+    font-weight: 750;
+    margin-top: 5px;
+}
+.nineth p{
+    text-align: center;
+    color: rgba(14,14, 14, 0.7);
+}
+.tenth{
+    text-align: center;
+}
+.tenth table{
+    /* border-radius: 16px; */
+    border: 1px solid rgba(14,14, 14, 0.15);
+    margin-left: 280px;
+    width: 700px;
+    border-collapse: collapse;
+}
+.tenth .cloud{
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 15px;
+    font-weight: 400;
+    width: 80%;
+    padding: 20px;
+    text-align: left;
+    background-color: white;
+}
+.tenth .storm{
+    color: rgb(255, 255, 255);
+}
+.susano{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    
+}
+.susano h3{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+.susano hr{
+    align-items: center;
+    border: 1px solid rgba(66, 66, 66, 0.1);
+}
+.susano .tactics{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.tactics img{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 40px;
+}
