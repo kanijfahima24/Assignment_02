@@ -405,7 +405,8 @@ width: 32%;
 .grid-1:before{
 content:"";
 position: absolute;
-width: 17%;
+idth: 17%;
+max-width: 260px;
 height: 250px;
  background-color:rgba(6, 255, 210, 0.5);
  z-index: -1;
@@ -414,8 +415,8 @@ height: 250px;
 content:"";
 position: absolute;
 /* inset: 0; */
-width: 710px;
-max-width: 45%;
+width: 45%;
+max-width:710px;
 height: 250px;
 background-color: rgba(255, 0, 0, 0.3);
 z-index: -1;
@@ -425,6 +426,7 @@ content:"";
 position: absolute;
 /* inset: 0; */
 width: 20.5%;
+max-width: 326px;
 height: 250px;
 background-color:rgba(0, 0, 0, 0.5);
 z-index: -1;
@@ -433,7 +435,8 @@ z-index: -1;
 content:"";
 position: absolute;
 /* inset: 0; */
-width:40%;
+width:35%;
+max-width: 550px;
 height: 250px;
 background-color: rgba(0, 0, 0, 0.5);
 z-index: -1;
@@ -442,8 +445,8 @@ z-index: -1;
 content:"";
 position: absolute;
 /* inset: 0; */
-width: 333px;
-max-width: 30%;
+width: 22%;
+max-width: 350px;
 height: 250px;
 background-color: rgba(66, 255, 0, 0.3);
 z-index: -1;
@@ -452,8 +455,8 @@ z-index: -1;
 content:"";
 position: absolute;
 /* inset: 0; */
-width: 415px;
-max-width: 26.2%;
+width: 26%;
+max-width: 412px;
 height: 250px;
 background-color:rgba(0, 71, 255, 0.3);
 z-index: -1;
@@ -701,7 +704,8 @@ content: "";
 z-index: -1;
 background: rgba(0, 0, 0, 0.2);
 position: absolute;
-width: 19%;
+width: 24%;
+max-width:390px;
 height: 330px;
 }
 .fifteen{
@@ -712,7 +716,8 @@ content: "";
 z-index: -1;
 background: rgba(0, 0, 0, 0.2);
 position: absolute;
-width: 19%;
+width: 24%;
+max-width:390px;
 height: 330px;
 }
 .sixteen{
@@ -723,7 +728,8 @@ content: "";
 z-index: -1;
 background: rgba(0, 0, 0, 0.2);
 position: absolute;
-width: 19%;
+width: 24%;
+max-width:390px;
 height: 330px;
 }
 .seventeen{
@@ -734,7 +740,8 @@ content: "";
 z-index: -1;
 background: rgba(0, 0, 0, 0.2);
 position: absolute;
-width: 19%;
+width: 24%;
+max-width:390px;
 height: 330px;
 }
 .eighteen{
@@ -745,7 +752,8 @@ content: "";
 z-index: -1;
 background: rgba(0, 0, 0, 0.2);
 position: absolute;
-width: 19%;
+width: 24%;
+max-width:390px;
 height: 330px;
 }
 .nineteen{
@@ -756,7 +764,8 @@ content: "";
 z-index: -1;
 background: rgba(0, 0, 0, 0.2);
 position: absolute;
-width: 19%;
+width: 24%;
+max-width:390px;
 height: 330px;
 }
 .nineth h5{
