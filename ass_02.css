@@ -377,7 +377,7 @@ z-index: 1;
 }
 /* for bg-box */
 .grid-1{
-background-image: url("Image/exercise1.png");
+background-image: url("Image/exercise1.jpg");
 width: 20%;    
 }
 .grid-2{
@@ -393,11 +393,11 @@ background-image: url("Image/exercise4.png");
 width: 42%;
 }
 .grid-5{
-background-image: url("Image/exercise5.png");
+background-image: url("Image/exercise5.jpg");
 width: 26%;
 }
 .grid-6{
-background-image: url("Image/exercise6.png");
+background-image: url("Image/exercise6.jpg");
 width: 32%;
 }
 /* on the imgage */
