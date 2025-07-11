@@ -123,7 +123,7 @@ background: transparent;
 .img-cont{
 width: 50%;
 height: 600px;
-background-image: url(Image/Image (2).png), linear-gradient(rgba(255,255,255,0.1)0%, rgba(0,0,0,1)100%);
+background-image: url("Image/Image_1.png"), linear-gradient(rgba(255,255,255,0.1)0%, rgba(0,0,0,1)100%);
 background-repeat: no-repeat;
 background-size: contain;
 background-position: center;
