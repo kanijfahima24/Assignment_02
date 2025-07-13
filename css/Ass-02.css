@@ -124,7 +124,7 @@ background: transparent;
 .img-cont{
 width: 50%;
 height: 600px;
-background-image: url("..Image/Image_1.png"), linear-gradient(rgba(255,255,255,0.1)0%, rgba(0,0,0,1)100%);
+background-image: url("../Image/Image_1.png"), linear-gradient(rgba(255,255,255,0.1)0%, rgba(0,0,0,1)100%);
 background-repeat: no-repeat;
 background-size: contain;
 background-position: center;
@@ -378,27 +378,27 @@ z-index: 1;
 }
 /* for bg-box */
 .grid-1{
-background-image: url("Image/exercise1.jpg");
+background-image: url("../Image/exercise1.jpg");
 width: 20%;    
 }
 .grid-2{
-background-image: url("Image/exercise2.png");
+background-image: url("../Image/exercise2.png");
 width: 55%;
 }
 .grid-3{
-background-image: url("Image/exercise3.png");    
+background-image: url("../Image/exercise3.png");    
 width: 25%;
 }
 .grid-4{
-background-image: url("Image/exercise4.png");
+background-image: url("../Image/exercise4.png");
 width: 42%;
 }
 .grid-5{
-background-image: url("Image/exercise5.jpg");
+background-image: url("../Image/exercise5.jpg");
 width: 26%;
 }
 .grid-6{
-background-image: url("Image/exercise6.jpg");
+background-image: url("../Image/exercise6.jpg");
 width: 32%;
 }
 /* on the imgage */
@@ -697,7 +697,7 @@ margin-bottom: 0;
 margin-top: 0;
 }
 .fourteen{
-background-image: url("Image/trainer1.png");
+background-image: url("../Image/trainer1.png");
 }
 .fourteen:before{
 content: "";
@@ -709,7 +709,7 @@ max-width:390px;
 height: 330px;
 }
 .fifteen{
-background-image: url("Image/trainer2.png");    
+background-image: url("../Image/trainer2.png");    
 }
 .fifteen:before{
 content: "";
@@ -721,7 +721,7 @@ max-width:390px;
 height: 330px;
 }
 .sixteen{
-background-image: url("Image/trainer3.png");    
+background-image: url("../Image/trainer3.png");    
 }
 .sixteen:before{
 content: "";
@@ -733,7 +733,7 @@ max-width:390px;
 height: 330px;
 }
 .seventeen{
-background-image: url("Image/trainer4.png");    
+background-image: url("../Image/trainer4.png");    
 }
 .seventeen:before{
 content: "";
@@ -745,7 +745,7 @@ max-width:390px;
 height: 330px;
 }
 .eighteen{
-background-image: url("Image/trainer5.png");    
+background-image: url("../Image/trainer5.png");    
 }
 .eighteen:before{
 content: "";
@@ -757,7 +757,7 @@ max-width:390px;
 height: 330px;
 }
 .nineteen{
-background-image: url("Image/trainer6.png");
+background-image: url("../Image/trainer6.png");
 }
 .nineteen:before{
 content: "";
