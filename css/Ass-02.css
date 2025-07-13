@@ -247,6 +247,10 @@ font-weight:400;
 color:rgba(255,255, 255,0.5);
 margin-bottom: 10px;
 }
+.third .descript{
+display: inline-block;
+margin-top: 5px;
+}
 .eight{
 display: flex;
 flex-wrap: nowrap;
