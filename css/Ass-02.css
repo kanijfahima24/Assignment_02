@@ -264,13 +264,11 @@ flex-direction: column;
 }
 .eight .res-1{
 display: flex;
-width: 50%;
 justify-content: space-between;
 height: 370px;
 }
 .res-2{
 display: flex;
-width: 50%;
 height: 370px;
 justify-content: space-between;
 }
