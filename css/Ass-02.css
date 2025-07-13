@@ -239,7 +239,7 @@ font-weight: 900;
 /* color: white; */
 margin-bottom: 15px;
 }
-.third p{
+.third .none{
 /* text-align: center; */
 width: 90%;
 font-size: 15px;
@@ -249,13 +249,26 @@ margin-bottom: 10px;
 }
 .eight{
 display: flex;
+flex-wrap: nowrap;
+gap:0;
 justify-content: space-between;
 height: 370px;
 } 
 .eight .nine{
 display: flex;
 flex-direction: column;
-width: 25%;
+}
+.eight .res-1{
+display: flex;
+width: 50%;
+justify-content: space-between;
+height: 370px;
+}
+.res-2{
+display: flex;
+width: 50%;
+height: 370px;
+justify-content: space-between;
 }
 .nine img{
 width: 200px;
